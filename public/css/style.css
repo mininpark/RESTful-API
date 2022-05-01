@@ -1,0 +1,126 @@
+/*
+Font
+ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;800&display=swap');
+
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default{
+    color: #333;
+    text-shadow: none; /* Prevent inheritence from `body` */
+    background-color: #fff;
+    border: 1px solid #fff;
+  }
+  
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: rgb(21, 196, 255);
+  border: 1px solid rgb(21, 196, 255);
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  background-color: #fff;
+  height: 100%;
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color:rgba(40, 36, 36, 0.782);
+}
+body {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+ul {padding: 0;
+}
+li {list-style: none;}
+
+button {
+  color: #fff;
+  border-radius: 0;
+  border: 0;
+  font-size: 20px;
+  background-color: #000;
+}
+h1 {font-size: 42px;
+font-weight: 700;}
+
+a {color: rgba(40, 36, 36, 0.782);}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.container {
+  background-color: rgba(227, 217, 217, 0.782);
+  height: 60vh;
+  border-radius: 16px;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
