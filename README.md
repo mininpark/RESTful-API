@@ -13,11 +13,7 @@ Users should be able to:
 
 ### Screenshot
 
-![all products](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8df025d6-bec0-44c8-8a05-64d8c6052d2c/Untitled.png)
-
-![new](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3e45e5aa-1e50-49f2-9257-a47d7de88eba/Untitled.png)
-
-![edit](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5956ba2b-fcf7-46ba-a20e-c989a9442fd8/Untitled.png)
+![all products](/public/images/1)![new](/public/images/2)![edit](/public/images/3)
 
 ## My process
 
